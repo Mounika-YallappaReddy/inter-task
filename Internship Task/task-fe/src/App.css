@@ -1,0 +1,213 @@
+.container{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to top right,#67b1e3,#925be8,#dd38f4);
+    min-width: 400px;
+}
+.row{
+    padding-top:200px;
+    min-width: 400px;
+    box-sizing: border-box;
+   
+}
+.loginform{
+    border: 1px solid black;
+    height: 400px;
+    background-color:#ffffff;
+    border-radius: 4px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    /* border-radius: 6px; */
+   
+    
+}
+ h1{
+    margin: auto;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    color:black;
+    font-family: 'Playfair Display', serif;;
+}
+
+
+.loginform .login-input{
+    margin: auto;
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   }
+/* .login-btn{
+    margin-left: 25%;
+    width: 50%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    background: linear-gradient(to top right,#67b1e3,#925be8,#dd38f4);
+    border-radius: 20px;
+} */
+.loginform button{
+    margin-left: 25%;
+    width: 50%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    background: linear-gradient(to top right,#67b1e3,#925be8,#dd38f4);
+}
+.loginform p{
+    margin-top: 30px;
+    margin-left: 36%;
+    font-size: 18px;
+    /* color:blue; */
+    margin-bottom: 10px;
+    font-family: 'Crimson Text', serif;
+
+}
+
+ /* .login-link{
+    text-decoration: none;
+    margin-left: 150px;
+    font-family: 'Crimson Text', serif;
+    font-weight: 600;
+} */
+.login-forgot{
+    margin-left: 60%;
+    margin-bottom: 15px;
+    text-decoration:none;
+    font-family: 'Dancing Script', cursive;
+   
+    font-size: medium;
+}
+.login-link{
+    margin-left: 41%;
+    text-decoration:none;
+    font-size:120%;
+    font-family: 'DM Serif Display', serif;
+   
+}
+/* REGISTER PAGE STYLING  */
+/* register page styling */
+
+.registerform{
+    border: 1px solid black;
+    height: 500px;
+   background-color: #ffffff;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    border-radius: 6px;
+   
+}
+
+.registerform .register-input{
+    margin: auto;
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.registerform button{
+    margin-left: 25%;
+    width: 50%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    background: linear-gradient(to top right,#67b1e3,#925be8,#dd38f4);
+    border-radius: 20px;
+}
+
+
+/* .register-main{
+    height: 100vh;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    background: linear-gradient(to top right,#67b1e3,#925be8,#dd38f4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+/* .register-form{
+    position: absolute;
+    width:30%;
+    background-color: #ffffff;
+    height:70vh;
+    border-radius: 4px;
+}
+.register-header{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+}
+.register-btn{
+    background: linear-gradient(to top right,#67b1e3,#925be8,#dd38f4);
+    margin-top: 20px;
+    width:90%;
+    border-radius: 20px;
+    font-size: 24px;
+} */
+
+/* PROFILE STYLING */
+/* .profile-main{
+    height: 100vh;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    background: linear-gradient(to top right,#67b1e3,#925be8,#dd38f4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-form{
+    position: absolute;
+    width:30%;
+    background-color: #ffffff;
+    height:70vh;
+    border-radius: 4px;
+}
+.profile-header{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+}
+.profile-btn{
+    background: linear-gradient(to top right,#67b1e3,#925be8,#dd38f4);
+    margin-top: 20px;
+    width:90%;
+    border-radius: 20px;
+    font-size: 24px;
+} */
+
+.profileform{
+    border: 1px solid black;
+    height: 500px;
+    background-color:white;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    border-radius: 6px;
+   
+}
+
+.profileform .profile-input{
+    margin: auto;
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.profileform button{
+    margin-left: 25%;
+    width: 50%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    background: linear-gradient(to top right,#67b1e3,#925be8,#dd38f4);
+    border-radius: 20px;
+}
+span{
+    margin-left: 50%;
+    font-weight: bold;
+    
+}
+.material-symbols-outlined{
+
+    cursor: pointer;
+}
